@@ -1,0 +1,1 @@
+RequestHeader edit Host "^www\.(.*)$" "$1"
