@@ -1,4 +1,5 @@
 
+# 
 # RequestHeader edit Host "^www\.(.*)$" "$1"
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
