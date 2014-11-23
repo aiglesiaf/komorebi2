@@ -20,6 +20,7 @@
 			<a href="http://wordpress.org/" rel="generator"><?php _e( 'WordPress', 'radiate' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'radiate' ), 'Radiate', '<a href="'.esc_url('http://themegrill.com/').'" rel="designer">ThemeGrill</a>' ); ?>
+			<a href="<?php bloginfo('url'); ?>/?p=40">Your Page</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
