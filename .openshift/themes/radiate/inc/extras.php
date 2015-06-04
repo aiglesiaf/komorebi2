@@ -107,7 +107,7 @@ function radiate_internal_css() {
 		$header_image_style = $header_image . $header_repeat . $header_position . $header_attachment;
 		?>
 		<style type="text/css" id="custom-header-css">
-		#parallax-bg { <?php echo trim( $header_image_style ); ?> } #masthead { margin-bottom: <?php echo $height; ?>px; } 
+		#parallax-bg-inner { <?php echo trim( $header_image_style ); ?> } #masthead { margin-bottom: <?php echo $height; ?>px; } 
 		@media only screen and (max-width: 600px) { #masthead { margin-bottom: <?php echo $heightsmall; ?>px; }  }
 		</style>
 		<?php

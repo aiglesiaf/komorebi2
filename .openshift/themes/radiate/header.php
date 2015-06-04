@@ -20,7 +20,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="parallax-bg"></div>
+<div id="parallax-bg">
+	<div id="parallax-bg-inner">
+	</div>
+</div>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
